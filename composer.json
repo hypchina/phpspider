@@ -1,0 +1,21 @@
+{
+    "name": "hypchina/phpspider",
+    "description": "php爬虫",
+    "require": {
+        "jaeger/querylist": "V3.2.1",
+        "jaeger/querylist-ext-request": "^1.0"
+    },
+    "license": "www.hypeng.cn",
+    "authors": [
+        {
+            "name": "hypchina",
+            "email": "673663794@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "phpspider\\": "src/"
+        }
+    }
+}
