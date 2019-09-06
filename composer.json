@@ -6,7 +6,6 @@
         "jaeger/querylist": "V3.2.1",
         "jaeger/querylist-ext-request": "^1.0"
     },
-    "license": "www.hypeng.cn",
     "authors": [
         {
             "name": "hypchina",
