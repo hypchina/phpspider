@@ -2,6 +2,7 @@
     "name": "hypchina/phpspider",
     "description": "php爬虫,spider,协程",
     "require": {
+        "PHP":">=5.5",
         "jaeger/querylist": "V3.2.1",
         "jaeger/querylist-ext-request": "^1.0"
     },
@@ -12,7 +13,6 @@
             "email": "673663794@qq.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "phpspider\\": "src/"
