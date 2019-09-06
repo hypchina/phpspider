@@ -1,5 +1,5 @@
 <?php
-namespace phpspider\tests;
+namespace Tests;
 
 use phpspider\Spideritem\SpiderItem;
 
@@ -13,7 +13,7 @@ class KuaileSpiderItem extends SpiderItem
 	public function proceed($spider){
 		$data = $this->values;
 		//todo 进行数据入库...
-
+		var_dump($data);
 		return $data;
 	}
 } 

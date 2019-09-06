@@ -1,6 +1,6 @@
 <?php
 
-namespace phpspider\tests;
+namespace Tests;
 
 use phpspider\Spider\BaseSpider;
 use QL\QueryList;
@@ -52,11 +52,10 @@ class KuaileSpider extends BaseSpider {
 			}, $item['number']);
 			$item['number'] = implode('', $item['number']);
 			$spiderItem = new KuaileSpiderItem();
-			$spiderItem->setValue('history_issue', $item['issue']);
-			$spiderItem->setValue('history_luck', $item['number']);
-			$spiderItem->setValue('history_time_reference', $item['date']);
-			$spiderItem->setValue('history_time_create', date("Y-m-d H:i:s"));
-			$spiderItem->setValue('history_state', 'NORMAL');
+			$spiderItem->setValue('issue', $item['issue']);
+			$spiderItem->setValue('luck', $item['number']);
+			$spiderItem->setValue('date', $item['date']);
+			$spiderItem->setValue('state', 'NORMAL');
 			yield $spiderItem;
 		}
 	}

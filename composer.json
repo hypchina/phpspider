@@ -1,6 +1,6 @@
 {
     "name": "hypchina/phpspider",
-    "description": "php爬虫",
+    "description": "php爬虫,spider,协程",
     "require": {
         "jaeger/querylist": "V3.2.1",
         "jaeger/querylist-ext-request": "^1.0"
@@ -16,6 +16,11 @@
     "autoload": {
         "psr-4": {
             "phpspider\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     }
 }

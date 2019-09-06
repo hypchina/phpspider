@@ -101,7 +101,7 @@ abstract class BaseSpider {
 				}catch (\Exception $e){
 
 				}finally{
-					if($this->keepErrorItem && $rs){
+					if($this->keepErrorItem && isset($rs)){
 						array_push($this->items, $rs);
 					}
 				}
