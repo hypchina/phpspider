@@ -6,7 +6,7 @@
 # phpspider 安装
 通过`composer`安装:
 ```
-composer require hypchina/phpspider
+composer require hypchina/phpspider:dev-master
 ```
 # phpspider 使用
 定义爬虫类KuaileSpider.php
