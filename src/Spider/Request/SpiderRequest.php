@@ -3,9 +3,9 @@ namespace phpspider\Spider\Request;
 
 class SpiderRequest{
 	
-	private $http = null;
-	private $callback = null;
-	private $args = null;
+	protected $http = null;
+	protected $callback = null;
+	protected $args = null;
 
 	/**
 	 * SpiderRequest constructor.
